@@ -112,11 +112,13 @@ The project uses a REST API for data operations:
 - **Error handling** with user-friendly messages
 
 ## 👥 Team Project
+This project was developed by a team of students as part of the GoIT educational course.
+Each team member was responsible for specific features of the application.
 
-This project was developed by a team of students as part of the GoIT educational course. Each team member contributed to different aspects of the application.
-
-### My Contribution
-I was responsible for developing the **Stories section**, which showcases heartwarming adoption success stories and testimonials. I also presented this project to our mentor.
+## 🙋‍♀️ My Contribution
+- Developed the **Stories** section featuring adoption success stories and testimonials
+- Implemented responsive layout and component logic for this section
+- Presented the project to our mentor
 
 ## 👤 Author
 
