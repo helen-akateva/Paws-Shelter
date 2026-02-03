@@ -1,79 +1,134 @@
-# Хатинка лапок
+# Paws Shelter 🐾
 
-Цей проект було створено за допомогою Vite.
+[![Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://helen-akateva.github.io/Paws-Shelter/)
 
-Кожне життя має значення. Знайди свого вірного друга Хатинка Лапок - це
-веб-додаток для знаходження тварин, які потребують дому. Платформа дозволяє
-користувачам переглядати доступних тварин, фільтрувати їх за категоріями,
-дізнаватися детальну інформацію та залишати заявки на знайомство.
+**Every life matters. Find your loyal friend.**
 
-# Про проєкт
+Paws Shelter is a web application designed to help homeless animals find loving homes. The platform enables users to browse available pets, filter by categories, view detailed information, and submit adoption requests.
 
-Цей проєкт вирішує важливу соціальну задачу - допомагає знайти дім для
-безпритульних тварин. Користувачі можуть:
+## 📋 About the Project
 
-// Переглядати каталог тварин з детальною інформацією // Фільтрувати тварин за
-категоріями // Читати історії успішного влаштування // Залишати заявки на
-знайомство з тваринами // Дізнаватися більше про організацію
+This team project addresses an important social mission - helping homeless animals find forever homes. The application provides:
 
-# Технології
+- Browse a catalog of animals with detailed information
+- Filter pets by categories (cats, dogs, etc.)
+- Read success stories of adopted pets
+- Submit adoption requests
+- Learn more about the organization and its mission
 
-// HTML5 - семантична розмітка // CSS3 - стилізація та адаптивний дизайн //
-JavaScript (ES6+) - функціональність та взаємодія // Swiper.js - слайдери та
-карусель // RateYo - відображення рейтингу зірочками // iziToast -
-push-повідомлення // Vite - збірка проєкту
+## 🛠️ Technologies & Stack
 
-# Адаптивність Додаток адаптований для всіх пристроїв з точками перелому:
+### Core Technologies
+- **HTML5** - Semantic markup
+- **CSS3** - Styling and responsive design
+- **JavaScript (ES6+)** - Functionality and interactivity
+- **Vite** - Build tool and development server
 
-// Mobile: від 320px (гумова верстка), адаптивна з 375px // Tablet: від 768px
-//Desktop: від 1440px
+### Libraries & Tools
+- **Swiper.js** - Sliders and carousels
+- **RateYo** - Star rating display
+- **iziToast** - Push notifications
+- **REST API** - Data fetching and submission
 
-# Як запустити проєкт
+### Development
+- **Git & GitHub** - Version control
+- **GitHub Pages** - Deployment
+- **Prettier** - Code formatting
+- **EditorConfig** - Code style consistency
 
-// Встановлення залежностей bashnpm install // Запуск в режимі розробки bashnpm
-run dev // Збірка для продакшн bashnpm run build // Перегляд продакшн збірки
-bashnpm run preview
+## ✨ Key Features
 
-# Основний функціонал Головна сторінка
+### Homepage
+- Hero section with welcome message and navigation
+- Pet catalog with filtering and pagination
+- About Us slider with organization information
+- FAQ accordion with common questions
+- Reviews carousel with adoption success stories
 
-// Hero секція з привітанням та навігацією // Каталог тварин з фільтрацією та
-пагінацією // Про нас - слайдер з інформацією про організацію // FAQ - акордеон
-з відповідями на питання // Відгуки - карусель щасливих історій
+### Pet Catalog
+- Filter by categories (cats, dogs, and more)
+- Lazy loading with pagination (9 items on desktop, 8 on mobile/tablet)
+- Detailed information in modal windows
+- Ability to submit adoption requests
 
-# Каталог тварин
+### Modal Windows
+- Pet details with full information and characteristics
+- Adoption request form with contact data
+- Form validation and error handling
 
-Фільтрація за категоріями (коти, собаки, та ін.) Завантаження порціями (9 на
-desktop, 8 на mobile/tablet) Детальна інформація в модальному вікні Можливість
-залишити заявку на знайомство
+### Responsive Design
+- **Mobile:** from 320px (fluid layout), adaptive from 375px
+- **Tablet:** from 768px
+- **Desktop:** from 1440px
 
-# Модальні вікна
+## 🚀 Getting Started
 
-Деталі тварини - повна інформація та характеристики Форма заявки - контактні
-дані для знайомства Валідація форм та обробка помилок
+### Installation
 
-# API Проєкт використовує REST API для отримання даних:
+```bash
+# Clone the repository
+git clone https://github.com/helen-akateva/Paws-Shelter.git
 
-// GET /api/categories - категорії тварин // GET /api/animals - список тварин //
-GET /api/feedbacks - відгуки користувачів // POST /api/orders - подача заявки
+# Navigate to project directory
+cd Paws-Shelter
 
-API документація: https://paw-hut.b.goit.study/api-docs/
+# Install dependencies
+npm install
+```
 
-# Дизайн Figma макет:
+### Development
 
-Посилання на дизайн Дизайн включає UI Kit з інтерактивними станами для всіх
-елементів.
+```bash
+# Start development server
+npm run dev
+```
 
-# Особливості
+### Production Build
 
-// Повністю адаптивний дизайн // Доступність - ARIA атрибути та семантика //
-Швидкодія - оптимізовані зображення та код // Індикатори завантаження для всіх
-запитів // UX-friendly - інтуїтивна навігація // Обробка помилок з
-користувацькими повідомленнями
+```bash
+# Build for production
+npm run build
 
-# Команда розробки Проєкт розроблено командою студентів GoIT в рамках
+# Preview production build
+npm run preview
+```
 
-навчального курсу.
+## 📡 API Integration
 
-# Ліцензія © 2024 Хатинка Лапок. Всі права захищені.
+The project uses a REST API for data operations:
 
-Допоможемо знайти дім кожній тваринці!
+- `GET /api/categories` - Fetch animal categories
+- `GET /api/animals` - Fetch list of animals
+- `GET /api/feedbacks` - Fetch user reviews
+- `POST /api/orders` - Submit adoption request
+
+## 🎯 Project Highlights
+
+- **Fully responsive design** across all devices
+- **Accessibility** - ARIA attributes and semantic HTML
+- **Performance** - Optimized images and code
+- **Loading indicators** for all API requests
+- **UX-friendly** - Intuitive navigation and interactions
+- **Error handling** with user-friendly messages
+
+## 👥 Team Project
+
+This project was developed by a team of students as part of the GoIT educational course. Each team member contributed to different aspects of the application.
+
+### My Contribution
+I was responsible for developing the **Stories section** ([src/partials/stories.html](src/partials/stories.html)), which showcases heartwarming adoption success stories and testimonials. I also presented this project to our mentor.
+
+## 👤 Author
+
+**Olena Akatieva**
+
+- LinkedIn: [linkedin.com/in/olena-akatieva](https://linkedin.com/in/olena-akatieva)
+- GitHub: [@helen-akateva](https://github.com/helen-akateva)
+
+## 📄 License
+
+© 2024 Paws Shelter. All rights reserved.
+
+---
+
+**Help us find a home for every pet! 🐾**
