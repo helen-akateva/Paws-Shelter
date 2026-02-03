@@ -116,7 +116,7 @@ The project uses a REST API for data operations:
 This project was developed by a team of students as part of the GoIT educational course. Each team member contributed to different aspects of the application.
 
 ### My Contribution
-I was responsible for developing the **Stories section** ([src/partials/stories.html](src/partials/stories.html)), which showcases heartwarming adoption success stories and testimonials. I also presented this project to our mentor.
+I was responsible for developing the **Stories section**, which showcases heartwarming adoption success stories and testimonials. I also presented this project to our mentor.
 
 ## 👤 Author
 
